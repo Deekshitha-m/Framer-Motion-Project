@@ -8,8 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+     
       backgroundImage: {
-       hero: 'url("/background.jpg")'
+       hero: 'url("/home/backgrnd.png")'
       },
     },
   },
