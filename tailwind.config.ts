@@ -10,10 +10,12 @@ const config: Config = {
     extend: {
      
       backgroundImage: {
-       hero: 'url("/home/backgrnd.png")'
+       hero: 'url("/home/backgrnd.png")',
+       abt: 'url("/home/bg2.jpg")'
       },
     },
   },
   plugins: [],
+  
 };
 export default config;

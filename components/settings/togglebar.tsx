@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import { color, motion } from "framer-motion";
 
+
 function ToggleBar() {
   const [isToggleOn, setIsToggleOn] = useState(false);
 

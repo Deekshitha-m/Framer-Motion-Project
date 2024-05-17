@@ -3,9 +3,9 @@ import React, { useState } from 'react'
 import { IoMenu } from "react-icons/io5";
 import Anihero from './imagehero';
 import { IoSettingsSharp } from "react-icons/io5";
-import { IoIosMenu } from 'react-icons/io';
-import Menu from './menu';
-import Setting from './setting';
+
+import Menu from '../menu';
+import Setting from '../settings/setting';
 
 
 const Hero = () => {
@@ -39,9 +39,6 @@ const Hero = () => {
         }
 
         <Anihero />
-
-        
-         
 
         <div className='flex items-center justify-around pl-[490px] mt-32 gap-80 text-lg text-white'>
             <p>2023 © All rights reserved. </p>
